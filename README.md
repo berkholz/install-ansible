@@ -10,3 +10,8 @@ wget https://raw.githubusercontent.com/berkholz/install-ansible/master/install_a
 ```
 curl -s "https://raw.githubusercontent.com/berkholz/install-ansible/master/install_ansible_centos.sh" | /bin/sh
 ```
+
+# how to call on rhel 7 maschines
+```
+curl -s "https://raw.githubusercontent.com/berkholz/install-ansible/master/install_ansible_rhel7.sh" | /bin/sh
+```
