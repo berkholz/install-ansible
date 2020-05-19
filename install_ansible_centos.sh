@@ -1,6 +1,7 @@
 #!/bin/sh
 
-yum install epel-release
-yum install ansible
-yum install git openssh-client
-
+if [ "$(whoami)" == "root" ];then 
+	yum install epel-release ansible git openssh-client
+else
+	sudo yum install epel-release ansible openssh-client git
+fi
