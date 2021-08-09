@@ -6,6 +6,11 @@ GIT-repo for installing ansible and needed packages.
 wget https://raw.githubusercontent.com/berkholz/install-ansible/master/install_ansible_ubuntu.sh -O - -q | /bin/bash
 ```
 
+# how to call on fedora maschines
+```
+curl -s "https://raw.githubusercontent.com/berkholz/install-ansible/master/install_ansible_fedora.sh" | /bin/sh
+```
+
 # how to call on cent os 7 maschines
 ```
 curl -s "https://raw.githubusercontent.com/berkholz/install-ansible/master/install_ansible_centos.sh" | /bin/sh
